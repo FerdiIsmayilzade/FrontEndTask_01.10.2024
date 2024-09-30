@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.box{
+    width: 160px;
+    height: 160px;
+    background-color: rgb(255, 127, 80);
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 0px 50px;
+}
+.box .icon{
+    display: flex;
+    justify-content: center;
+    padding: 55px;
+}
+.box .icon i{
+    font-size: 40px;
+    
+}
+
+.box-name{
+    margin-right: 8px;
+    margin-top: 60px;
+    
+}
+
+.box-name h1{
+    width: 300px;
+    font-size: 35px;
+}
+
+.box-name h1:nth-child(2){
+    margin-left: 25px;
+   
+}
+
+.about{
+    margin: 0 auto;
+    padding: 0 30px;
+    margin-top: 185px;
+    width: 450px;
+}
+.about p{
+    text-align: justify;
+    line-height: 30px;
+    color: rgb(169, 153, 153);
+    font-size: 21px;
+}
